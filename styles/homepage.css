@@ -169,7 +169,7 @@ li {
     border: none;
     width: 5rem;
     height: 2rem;
-    margin:0 1rem ;
+    margin:0 3rem ;
 }
 
 .nav__img{
@@ -196,6 +196,7 @@ li {
 }
 .menu__footer-wrapper{
     margin-left: 5rem;
+    margin-top: 2rem;
 }
 
 .footer__menu-icon{
