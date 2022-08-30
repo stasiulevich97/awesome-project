@@ -15,6 +15,8 @@ li {
     list-style-type: none;
 }
 
+
+
 .homepage__container{
     height: 100%;
 }
@@ -72,7 +74,7 @@ li {
     width: 90%;
  }
 
- .main__homepage-title{
+.main__homepage-title{
     font-size: 3rem;
     font-weight: 800;
     margin:2rem var(--default-margin) 0 ;
@@ -83,7 +85,7 @@ li {
     display: flex;
  }
 
-.homepage__footer{
+.homescreen__footer{
     height:9rem;
     width: 90%;
     background-color: var(--form-bg-color);
@@ -92,23 +94,121 @@ li {
     
  }
 
- .footer__icons-wrapper{
+.footer__icons-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
 
  }
- .footer_icon{
+.footer_icon{
     width: 3rem;
     margin:1.5rem 3rem;
     margin-bottom: 1rem;
  }
 
- .footer__icon-name{
+.footer__icon-name{
     font-size: 2rem;
     margin:0 1.5rem;
     color: var(--point-bg-color-hover);
 
  }
  
+
+.menu__page-container{
+    background-color: var(--form-bg-color);
+    width: 100%;
+}
+
+.arrow-btn{
+    border: none;
+    background-color: inherit;
+    font-size: large;
+    color: var(--text-color-second);
+    font-weight: 800;
+    padding: 1rem;
+ }
+
+ .homepage__user-photo{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+ }
+
+ .user__info-container{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .user__info-wrapper{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+ }
+
+.user__info{
+    color: var(--text-color-second);
+    font-size: .8rem;
+ }
+
+.info__flex{
+    display: flex;
+    align-items: center;
+   
+ }
+
+.user__copy-img{
+    width: 2rem;
+    height: 1.3rem;
+    padding-left:var(--standart-padding) ;
+
+}
+
+.edit__btn{
+    background-color: var(--component-bg-color);
+    border-radius: 1rem;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    margin:0 1rem ;
+}
+
+.nav__img{
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.nav__imgs-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.menu__nav-title{
+    color: var(--light-text);
+    font-size: 1rem;
+    font-weight: 800;
+    margin: var(--low-margin);
+}
+
+.menu__footer{
+    width: 80%;
+    height:9rem;
+}
+.menu__footer-wrapper{
+    margin-left: 5rem;
+}
+
+.footer__menu-icon{
+    width: 2rem;
+    margin: 1.2rem;
+    margin-bottom: 0;
+
+ }
+
+.footer__menu-name{
+    font-size: 1rem;
+    margin:.7rem;
+    color: var(--point-bg-color-hover);
+
+ }
 
