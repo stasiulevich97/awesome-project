@@ -1,0 +1,22 @@
+:root {
+    --body-bg-color : #1B232A ;
+    --component-bg-color : #5ED5A8;
+    --component-bg-hover-color : #2db984;
+    --point-bg-color : #252E35;
+    --point-bg-color-hover : #777777;
+    --text-color-prim : #252E35;
+    --text-color-second : #FFFFFF;
+    --standart-margin : 1rem;
+    --standart-padding : 1rem;
+    --medium-padding : 1.5rem;
+    --form-bg-color : #1B232A;
+    --light-text : #A7AFB7;
+    --bg-btn-group : #161C22;
+    --default-margin : 2rem;
+    --medium-margin : 1.5rem;
+    --low-margin : 1rem;
+    --es-margin : .5rem;
+
+   
+    
+}

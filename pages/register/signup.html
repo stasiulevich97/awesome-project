@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/form.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__exit-btn">
+            <button class="exit-btn"> &#x2715</button>
+        </div>
+
+        <div class="btn-group">
+            <a href="../register/form.html" class="sign__btn-link">
+                <button class="btn">Sign In</button>
+            </a>
+            
+            <a href="../register/signup.html" class="sign__btn-link">
+                <button class="btn">Sign Up</button> 
+            </a>
+        </div>
+
+        <div class="title-wrapper">
+            <h3 class="title">Sign Up</h3>
+        </div>
+
+        <form class="form">
+            <div class="form__input">
+                <div class="label-group">
+                    <label id="label-email" for="email">Email</label>
+
+                    <label for="email" id="label-link">
+                        <a class="label-active-link" href="../register/mobile-register.html">
+                           Register with mobile
+                        </a>
+                    </label>
+                </div>
+
+                <fieldset class="form__input-wrapper">
+                    <input placeholder="Email" type="email" class="input" />
+                </fieldset>
+            </div>
+
+            <div class="form__input">
+                <label id="label-password" for="password">Password</label>
+
+                <fieldset class="form__input-wrapper">
+                    <input placeholder="Password" type="password" class="input" />
+                </fieldset>
+
+            </div>
+        </form>
+
+        <div class="button-wrapper">
+            <button class="button__sign">Sign Up</button>
+        </div>
+
+        <span>Or login with</span>
+
+        <div class="btn-group-media">
+            <button class="button">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+            </button>
+            <button class="button">
+                <i class="fa-brands fa-google"></i>
+                Google
+            </button>
+        </div>
+
+
+        <script src="https://kit.fontawesome.com/fcf522b6c3.js" 
+         crossorigin="anonymous">
+        </script>
+    
+</body>
+</html>
